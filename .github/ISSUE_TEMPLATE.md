@@ -1,25 +1,10 @@
-<!--
+/!\ IMPORTANT /!\
 
-** Please read the guidelines below. **
+As explained in the blog post here https://snowplowanalytics.com/blog/2020/07/16/changing-releasing/ all the components of Snowplow pipeline have been moved to their own repo, issues should be created directly on the appropriate repo :
 
-GitHub issues are reserved for bug reports.
-The best place to ask general questions or ask for community support is
-[on our Discourse](https://discourse.snowplowanalytics.com/).
-
--->
-
-**Project**: <!-- e.g. Stream Enrich, Scala Stream Collector -->
-
-**Version**:
-
-**Expected behavior**:
-
-**Actual behavior**:
-
-**Steps to reproduce**:
-
-<!-- Please try to be as detailed as possible so that we can reproduce and fix the issue
-as quickly as possible. -->
- 1.
- 2.
-
+- Stream Collector: https://github.com/snowplow/stream-collector/
+- Enrich: https://github.com/snowplow/enrich
+- EmrEtlRunner: https://github.com/snowplow/emr-etl-runner
+- RDB loader: https://github.com/snowplow/snowplow-rdb-loader
+- Snowflake loader: https://github.com/snowplow-incubator/snowplow-snowflake-loader
+- BigQuery loader: https://github.com/snowplow-incubator/snowplow-bigquery-loader
